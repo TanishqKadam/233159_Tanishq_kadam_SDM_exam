@@ -1,0 +1,50 @@
+SRS:software requirement specification document for online project management
+
+Team:software architect,software lead,software manager,Quality Assurance Team,tester,software developer
+
+Objective:
+online project management is a tool to help in managing projects within an organisation.this will provide one  platform for the managing the projects for the employees,managers,delivery managers,stakeholders to give the updatation about the project going on in the organisation.
+
+scope:
+This system will provide an end to end project management service for an oragnisation.
+for managing the projects going in the organisation this system will provide the requirements accrodingly
+
+
+functional requirement-
+-->this system should allow users to create account on the platform.
+-->user/company employee have to submit the details about their email and username for login/signin purpose
+-->this system will ask for the extra details which will not be compulsory for every user 
+-->this systemm will provide the different roles in which employee are working 
+-->depending on the roles the system will give the access to the user/employee
+-->this system should allow project manager to assign the projects.
+-->this system should allow project manager to create projects.
+-->this system should allow the stakeholder to track the project/sholud give overview of the project .
+-->this sysytem should allow the employee to accept the project details given by the project manager. 
+-->this sysytem should allow the employee to add the status of ongoing task 
+-->this system should allow the employees to add the remark on task on which they are working
+-->this system should allow the managers as well as the emplooyer to mark the task which has been completed.
+-->this system should allow to check attendance of employee/managers
+-->this system should give the section for employee applying the leaves
+-->this system should give the details about the remaining leaves to employee.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+non-functional requirements
+
+        

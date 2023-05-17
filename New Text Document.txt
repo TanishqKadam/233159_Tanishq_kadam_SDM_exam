@@ -1,0 +1,31 @@
+create table project(
+pid int primary key,
+pname varchar(20),
+desc varchar(20),
+duration date,
+);
+
+
+create table manager(
+Mgrid int primary key,
+mname varchar(20),
+pid int,
+constraint f11 foreign key(pid) references project(pid),
+constarint f12 foreign key(pname) referneces project(pname)
+);
+
+create table employee(
+eid int primary key,
+ename varchar(20),
+Eemail varchar(20),
+constraint f13 foreign key(mname) references to manager(mname)
+constraint  f14 foreign key(pid) references to project(pid)
+);
+
+
+create table task(
+task_id int,
+Tname varchar(20),
+duration varchar(20),
+constraint f12 foreign key(ename) references to employee(ename));
+ 

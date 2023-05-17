@@ -1,0 +1,17 @@
+business entities:-
+
+employee-:
+(employee ID,employee name,organisation name,location,designation,email)
+
+
+manager-:
+(manager ID,manager name,organisation,location,email)
+
+
+project:-
+(project ID,name of project,starting date,end date)
+
+task:-
+(task id,task name,desciption,employee ID, project ID)
+
+ 
